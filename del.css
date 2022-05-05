@@ -1,0 +1,93 @@
+
+.menu ul li {
+    display: inline-block;
+}
+.menu-2 {
+    width: 100%;
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -93%;
+    cursor: pointer;
+    transition: all ease .7s;
+}
+.menu-2:hover {
+    left: 0;
+}
+.menu-2::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 3%;
+    left: 94%;
+    background: url(../Downloads/rocket.svg);
+}
+a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ece;
+    font-size: 25px;
+}
+.menu ul li a {
+    background-color: #ece;
+    color: cornflowerblue;
+}
+.menu ul li a:hover {
+    color: #ece;
+    background-color: cornflowerblue;
+}
+ul {
+    list-style-type: none;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu ul li {
+    border-right: 1px solid cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    position: relative;
+    min-width: 140px;
+}
+.menu ul li:first-child {
+    border-left: 1px solid cornflowerblue;
+}
+.menu li ul {
+    position: absolute;
+    top: 100%;
+    left: -40px;
+    display: none;
+}
+.menu li:hover > ul {
+    display: block;
+}
+@media (max-width:760px) {
+    .menu {
+        display: none;
+    }
+}
+@media (min-width:761px) {
+    .menu-2 {
+        display: none;
+    }
+}
+.block {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+.block__in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 10px 20px 15px -10px gray;
+}

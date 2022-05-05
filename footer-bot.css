@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #070a1b;
+    color: white;
+    font-family: pacifico;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 240%;
+}
+.container {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header {
+
+}
+.header__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+}
+.header__btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.logo-img {
+    max-width: 300px;
+    margin-left: 100px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.list {
+    display: flex;
+}
+.list__item + .list__item {
+    margin-left: 25px;
+}
+.list__link {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+}
+.list__link:hover {
+    background-color: #c1a1d2;
+}
+.header__content {
+    background: url(./gai/zztop/vodopad.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(80%) contrast(120%);
+    min-height: calc(100vh + 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.header__content::before {
+    content: "";
+    background-color: black;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: -5px 10px 15px -1px yellow;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+.title {
+    color: rgba(255, 255, 255, 0.1);
+    font-family: monospace;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 72px;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.title-desc {
+    color: rgba(255, 255, 255, 0.3);
+    text-shadow: 0px 3px 3px rgba(43, 33, 21, 0.8);
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 100px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    flex: 1 1 auto;
+}

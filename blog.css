@@ -1,0 +1,88 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.main__blog {
+    margin: 80px 0;
+}
+.container__blog {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+}
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-search {
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.mmm-search {
+    width: 100%;
+}
+.blog-info {
+    display: flex;
+    flex-direction: column;
+}
+.blog-row {
+    display: flex;
+}
+.blog-row + .blog-row {
+    margin-top: 32px;
+}
+.text-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 32px;
+    padding: 14px 0;
+}
+.flex-blog {
+    display: flex;
+}
+.vremya {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+}
+.tima {
+    padding-right: 24px;
+}
+.emo {
+    margin-top: 32px;
+}
+.nemo {
+    margin-top: 16px;
+}
+.contact-photos {
+    margin-right: 16px;
+    max-height: 40px;
+}
+.number-search {
+    margin-top: 80px;
+}
+.contra {
+    margin: 0 auto;
+}
+.ulio {
+    display: flex;
+    justify-content: center;
+}
+.eee {
+    display: block;
+    text-align: center;
+    margin-left: 16px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: white;
+    transition: all ease .3s;
+}
+.eee:hover, .active {
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+}

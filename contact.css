@@ -1,0 +1,67 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.peppa {
+    justify-content: center;
+}
+.blyat {
+    margin-top: 48px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.4);
+}
+.contact-bot {
+    margin-top: 64px;
+}
+.fireman {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 70px 10px 70px;
+}
+.spasi {
+    text-align: center;
+}
+.quote {
+    padding: 48px 40px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 64px 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.qqq {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    line-height: 64px;
+    font-weight: 300;
+    font-style: italic;
+}
+.side-link {
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ingredient-info {
+    width: 100%;
+    max-width: 920px;
+    margin-left: 70px;
+}
+.ola {
+    margin: 0;
+    padding: 0;
+}
+.war {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.social-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social__li + .social__li {
+    margin-top: 30px;
+}
